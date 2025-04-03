@@ -24,4 +24,11 @@ class Camion(Vehiculo):
     def deliver(self):
         return f"\n Camion {self._model} entregado"
     
+
+class Avion(Vehiculo):
     
+    def __init__(self, model):
+        self._model = model
+        
+    def deliver(self):
+        return f"\n El Avion {self._model} entregado"
