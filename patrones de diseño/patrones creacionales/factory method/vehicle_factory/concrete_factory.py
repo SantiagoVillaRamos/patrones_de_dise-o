@@ -6,6 +6,7 @@ class FabricaCarro(FabricaVehiculo):
     def get_vehiculo(self, tipo_vehiculo):
         return Carro(tipo_vehiculo)
     
+    
 class FabricaCamion(FabricaVehiculo):
     
     def get_vehiculo(self, tipo_vehiculo):
